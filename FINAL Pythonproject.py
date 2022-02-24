@@ -152,6 +152,9 @@ def time_stats(df, month, day):
 
     print("""Statistics on most frequent times of travel
     """)
+    
+    print('\nCalculating The Most Frequent Times of Travel...\n')
+    start_time = time.time()
 
     months = ['January', 'February', 'March', 'April', 'May', 'June']
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
