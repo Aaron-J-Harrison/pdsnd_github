@@ -1,0 +1,6 @@
+Other resources used in this project
+
+- https://stackoverflow.com/
+- https://docs.python.org/3/library/
+- https://pandas.pydata.org/
+- https://www.w3schools.com/
