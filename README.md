@@ -9,7 +9,7 @@ Replace the Project Title
 A program to interactively analyse US bikeshare data
 Describe what your project is about and what it does
 
-### Files used
+Data from Chicago, New York City and Washington was used in this project
 Include the files used
 
 ### Credits
