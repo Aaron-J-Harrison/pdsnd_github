@@ -12,5 +12,10 @@ Describe what your project is about and what it does
 Data from Chicago, New York City and Washington was used in this project
 Include the files used
 
-### Credits
+I used a number of additional sources in this work including
+https://stackoverflow.com/
+https://docs.python.org/3/library/
+https://pandas.pydata.org/
+https://www.w3schools.com/
+
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
