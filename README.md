@@ -6,7 +6,7 @@ Include the date you created this project and README file.
 Python US Bikeshare Project
 Replace the Project Title
 
-### Description
+A program to interactively analyse US bikeshare data
 Describe what your project is about and what it does
 
 ### Files used
