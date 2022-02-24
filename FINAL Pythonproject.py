@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 import datetime as dt
+import tablulate
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -269,19 +270,12 @@ def main():
         # use If/Else statements to handle incorrect user imputs
         i=0
         while True:
-            if view_raw_data == 'yes':
-                data = df.iloc[i : i+5]
-                print(data)
-                i += 5
-                view_raw_data = (input(
-                'Would you like to view the next 5 rows of data (yes/no)? ')
-                ).lower()
-            elif view_raw_data == 'no':
+            display_data = input(
+            '\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+            if display_data.lower() != 'yes':
                 break
-            else:
-                view_raw_data = (input(
-                'Would you like to view the next 5 rows of data (yes/no)? ')
-                ).lower()
+            print(tabulate(df_default.iloc[np.arange(0+i,5+i)], headers ="keys"))
+            i+=5
 
         restart = input('\nWould you like to restart the program? (yes/no).\n')
 
