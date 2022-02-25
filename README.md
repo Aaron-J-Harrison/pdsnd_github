@@ -20,4 +20,5 @@ https://docs.python.org/3/library/
 https://pandas.pydata.org/
 https://www.w3schools.com/
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would like to thank the Udacity team and reviewers who guided me through this
+project
