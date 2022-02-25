@@ -19,3 +19,6 @@ https://stackoverflow.com/
 https://docs.python.org/3/library/
 https://pandas.pydata.org/
 https://www.w3schools.com/
+
+I would like to thank the Udacity team and reviewers who guided me through this
+project
