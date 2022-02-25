@@ -6,8 +6,10 @@ Include the date you created this project and README file.
 Python US Bikeshare Project
 Replace the Project Title
 
-A program to interactively analyse US bikeshare data
-Describe what your project is about and what it does
+This program interactively analyses bikeshare data based on the user input. the
+program can analyse the most popular destinations, characteristics of the riders
+and popular times of travel.
+
 
 Data from Chicago, New York City and Washington was used in this project
 Include the files used
